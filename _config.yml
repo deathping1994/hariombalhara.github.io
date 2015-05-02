@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Personal Blog
 locale:           en_US
 url:              
 
@@ -9,7 +9,7 @@ url:
 
 permalink:   /:categories/:title/
 markdown:    kramdown
-highlighter: pygments
+highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
@@ -26,35 +26,22 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
+  name: Hari Om
   avatar: bio-photo.jpg
-  bio: "Describe your self."
+  bio: "Senior Software Engineer @ Wingify"
   email: 
   disqus-shortname: 
-  twitter: #username
-  facebook: #username
+  twitter: hariom_balhara
+  facebook: hbalhara
   google:
-    plus: #username
-    analytics: 
+    analytics: UA-62732309-1
     verify: 
     ad-client: 
     ad-slot: 
   bing-verify: 
-  github: #username
-  stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
+  github: hariombalhara
+  stackoverflow: 1109657/hariom
+  linkedin: hariombalhara
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
